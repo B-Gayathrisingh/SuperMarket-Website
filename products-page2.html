@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Supermarket - Products Page 2</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+  <style>
+    .card-img-top {
+      height: 200px;
+      object-fit: cover;
+    }
+    .card-body {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+    }
+  </style>
+</head>
+<body>
+
+<!-- Navbar -->
+<nav class="navbar navbar-expand-lg navbar-dark bg-success">
+  <div class="container">
+    <a class="navbar-brand" href="index.html">
+      <img src="logo.png" alt="Logo" width="40"> Supermarket
+    </a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ms-auto">
+        <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+        <li class="nav-item"><a class="nav-link active" href="products.html">Products</a></li>
+        <li class="nav-item"><a class="nav-link" href="register.html">Register</a></li>
+        <li class="nav-item"><a class="nav-link" href="login.html">Login</a></li>
+        <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<!-- Products Grid -->
+<section class="container mt-5">
+  <h2 class="text-center mb-4">Fruits and Vegetables</h2>
+  <div class="row">
+
+    <div class="col-md-3 mb-4">
+      <div class="card">
+        <img src="product5.jpg" class="card-img-top" alt="Orange">
+        <div class="card-body">
+          <h5 class="card-title">Orange</h5>
+          <p class="card-text">$120.00</p>
+          <a href="#" class="btn btn-success">Add to Cart</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-md-3 mb-4">
+      <div class="card">
+        <img src="product6.jpg" class="card-img-top" alt="Apple">
+        <div class="card-body">
+          <h5 class="card-title">Apple</h5>
+          <p class="card-text">$250.00</p>
+          <a href="#" class="btn btn-success">Add to Cart</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-md-3 mb-4">
+      <div class="card">
+        <img src="product7.jpg" class="card-img-top" alt="Capsicum">
+        <div class="card-body">
+          <h5 class="card-title">Capsicum</h5>
+          <p class="card-text">$123.00</p>
+          <a href="#" class="btn btn-success">Add to Cart</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-md-3 mb-4">
+      <div class="card">
+        <img src="product8.jpg" class="card-img-top" alt="Tomato">
+        <div class="card-body">
+          <h5 class="card-title">Tomato</h5>
+          <p class="card-text">$40.00</p>
+          <a href="#" class="btn btn-success">Add to Cart</a>
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+  <!-- Simplified Pagination -->
+  <nav aria-label="Page navigation">
+    <ul class="pagination justify-content-center">
+      <li class="page-item">
+        <a class="page-link" href="products.html">Previous</a>
+      </li>
+      <li class="page-item">
+        <a class="page-link" href="products.html">Next</a>
+      </li>
+    </ul>
+  </nav>
+
+</section>
+
+<!-- Footer -->
+<footer class="bg-dark text-white mt-5 p-4 text-center">
+  <p>Since 2001 Supermarket | Follow us on 
+    <a href="#" class="text-white">Facebook</a>, 
+    <a href="#" class="text-white">Instagram</a>
+  </p>
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

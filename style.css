@@ -1,0 +1,27 @@
+body {
+  font-family: Arial, sans-serif;
+}
+h2 {
+  color: #28a745;
+}
+/* Make all product images same height */
+.card-img-top {
+  height: 200px;       /* fixed height for all product images */
+  object-fit: cover;   /* crop/resize to fit without distortion */
+}
+
+/* Optional: make all cards equal height */
+.card {
+  height: 100%;
+}
+
+/* Optional: make card body the same height so buttons align */
+.card-body {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+footer a:hover {
+  text-decoration: underline;
+}
